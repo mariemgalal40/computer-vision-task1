@@ -15,41 +15,5 @@
 | Mariam Galal Mohamad     |  2  |  25 |
 
 
-**NOTE:** Run main.py from root directory of th repo
+**NOTE:** find all the results in main.ipynb
 
-# Noise:
-
-## Uniform Noise:
-
-<img src="images/uniformnoise.jpg">
-
-## Gaussian Noise:
-
-<img src="images/gaussiannoise.jpg">
-
-## Salt and pepper Noise:
-
-<img src="images/saltandpeppernoise.jpg">
-
-# Filters:
-
-<img src="images/filters.jpg">
-
-# Histogram equalization
-
-It is applied to a gray scale image ,by using the histogram of the image
-to enhance the image contrast.
-
-<img src="images/Equalization.jpg">
-
-# Normalization
-
-### - We applied linear normalization (contrast stretching) by changing scale of pixels intensities to cover all range from 0 to 255
-
-- For image that is shown below intentisties range from 6 to 200
-  <img src="images/test.jpeg"  width="400" height="200"/>
-
-- After applying normalization, intentisties range becomes from 0 to 255
-  <img src="images/test_edit.jpeg"  width="400" height="200"/>
-
-### - The differnce between two image is clear to bring the image into a range that is more normal to the senses
